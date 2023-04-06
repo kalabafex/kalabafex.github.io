@@ -1,0 +1,33 @@
+.headings{
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-decoration: underline;
+    font-family: Lucida, Helvetica, Arial;
+    letter-spacing: 0.25em;
+    display: inline;
+    }
+    .topHeadings{
+    font-size: 22pt;
+    width: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .otherHeadings{
+      font-size: 18pt;
+    }
+    .pie{
+      background-image: url("Images/silverware.jpg");
+      color:#404040;
+      font-family:Georgia,Garamond, serif;
+      font-size: 11pt;
+    }
+    .comments{
+      background-color: #FFFFA8;
+      font-style: italic;
+    }
+    a{
+     color: #A4A400;
+    }
+    ul>li{list-style-image: url('Images/pie_icon.gif');
+    }

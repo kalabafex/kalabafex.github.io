@@ -7,16 +7,41 @@
     <style type="text/css">
       div {
         border: 1px solid black;
-        margin-left: 5px;
-        margin-bottom: 5px;
+      }
+      #a {
+        width: 1000px;
+        height: 500px;
       }
       #b {
-        position: absolute;
-        top: 0px;
+        position: fixed;
         bottom: 0px;
+        left: 0px;
         right: 0px;
-        width: 200px;
       }
+      #c {
+        float: right;
+      }
+      /* #a {
+        position: relative;
+      }
+      #c {
+        float: none;
+        position: absolute;
+        left: 50%;
+        bottom: 250px;
+      }
+      #d {
+        position: relative;
+        top: 250px;
+        left: 250px;
+      } */
+      /* #b {
+        position: static;
+        margin: 100px;
+      }
+      #d {
+        position: absolute;
+      } */
     </style>
   </head>
 
@@ -27,6 +52,7 @@
         Text for b
         <div id="c">Text for c</div>
       </div>
+      <div id="d">Text for d</div>
     </div>
   </body>
 </html>

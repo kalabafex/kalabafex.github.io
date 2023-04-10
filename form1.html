@@ -21,6 +21,7 @@
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
+          pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[az]{2,3}"
           placeholder="Enter email"
         />
         <small id="emailHelp" class="form-text text-muted"
@@ -31,6 +32,7 @@
         <label for="exampleInputPassword1">Password</label>
         <input
           type="password"
+          pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{8,}"
           class="form-control"
           id="exampleInputPassword1"
           placeholder="Password"

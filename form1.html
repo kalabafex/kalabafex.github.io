@@ -17,11 +17,12 @@
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input
+          required
           type="email"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
-          pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[az]{2,3}"
+          pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}"
           placeholder="Enter email"
         />
         <small id="emailHelp" class="form-text text-muted"
@@ -31,8 +32,9 @@
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
         <input
+          required
           type="password"
-          pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
           class="form-control"
           id="exampleInputPassword1"
           placeholder="Password"
@@ -41,6 +43,7 @@
       <div class="form-group">
         <label for="website">Additional</label>
         <input
+          required
           type="url"
           id="website"
           class="form-control"

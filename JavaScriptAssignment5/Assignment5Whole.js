@@ -144,6 +144,7 @@ c(8, 9, 10);
 console.log(b);
 console.log(x);
 
+("use strict");
 var x = 9;
 function myFunction() {
   return x * x;

@@ -5,19 +5,32 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <style type="text/css">
-      .con {
-        border: 2px solid greenyellow;
+      div {
+        border: 1px solid;
+      } /*
+      #a {
+        height: 350px;
+        border-color: pink;
+      }
+      .floaty {
+        float: right;
+        width: 100px;
+        height: 50px;
+        border-color: red;
+      }
+      #c {
+        clear: right;
+        position: relative;
+        height: 100px;
+        border-color: green;
       }
       #d {
-        color: blue;
-        width: 200px;
-        height: 200px;
-        margin: 20px;
-      }
-      div {
-        border: 1px solid black;
-        color: aqua;
-      }
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+      } */
 
       /* #a {
         width: 1000px;
@@ -53,17 +66,24 @@
       #d {
         position: absolute;
       } */
+      body {
+        background-color: ivory;
+      }
+      #first {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .c {
+        position: relative;
+      }
     </style>
   </head>
 
   <body>
-    <div class="con" id="a">
-      Text for a
-      <div id="b">
-        Text for b
-        <div id="c">Text for c</div>
-      </div>
-      <div id="d">Text for d</div>
+    <div class="c">
+      rio
+      <div id="first">hi</div>
     </div>
   </body>
 </html>

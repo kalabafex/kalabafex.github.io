@@ -24,6 +24,7 @@ function elderly(evt) {
   if (evt.checked) {
     let rows = document.getElementsByTagName("tr");
     for (let i = 1; i < rows.length; i++) {
+      console.log(calculateAge(new Date(rows[i].childNodes[4].innerHTML)));
       if (calculateAge(new Date(rows[i].childNodes[4].innerHTML)) < 65) {
         rows[i].style.display = "none";
       }
